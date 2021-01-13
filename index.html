@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title lang="en">Pomodoro Timer</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./stylePomodoro.css">
 </head>
 <body>
+    <div class="linkBox">
+        <a href="./cron.html" class="link">Cronometro</a>
+    </div>
     <nav class="buttons">
-        <button class="play btn">Play</button>
-        <button class="pause btn">Pause</button>
-        <button class="reset btn">Reset</button>
+        <button class="short btn">Curto</button>
+        <button class="medium btn">Medio</button>
+        <button class="long btn">Longo</button>
     </nav>
     <div class="box">
         <div class="content">
             <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+            <button class="btnPlay">play</button>
+            <button class="btnPause">pause</button>
         </div>
     </div>
-    <script src="./script.js"></script>
+    <audio src="./sounds/sound.mp3" class="sound"></audio>
+    <script src="./pomodoro.js"></script>
 </body>
 </html>

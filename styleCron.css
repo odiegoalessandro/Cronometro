@@ -58,3 +58,24 @@ body{
 .btn:hover{
     background: salmon;
 }
+.linkBox{
+    background: #151932;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+    background: #151932;
+    padding: 5px;
+    border-radius: 20px;
+}
+.link:hover{
+    background: salmon;
+}
