@@ -22,7 +22,45 @@
             <button class="btnPause">pause</button>
         </div>
     </div>
+    <div class="modal">
+        <header>
+            <h3>Settings</h3>
+            <button class="closeModal"><i class="fas fa-times"></i></button>
+        </header>
+        <main>
+            <div class="time">
+                <h4>time(seconds)</h4>
+                <div class="container">
+                    <div class="inputs">
+                        <span class="placeholder">curto</span>
+                        <input type="number"class="input">
+                    </div>
+                    <div class="inputs">
+                        <span class="placeholder">medio</span>
+                        <input type="number" class="input">
+                    </div>
+                    <div class="inputs">
+                        <span class="placeholder">longo</span>
+                        <input type="number" class="input">
+                    </div>
+                </div>
+            </div>
+            <div class="color">
+                <h4>font</h4>
+                <div class="colors">
+                    <button class="colorBtn salmonBtn"></button>
+                    <button class="colorBtn blueBtn"></button>
+                    <button class="colorBtn purpleBtn"></button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <button class="apply">Apply</button>
+        </footer>
+    </div>
+    <button class="configBtn"><i class="fas fa-cog"></i></button>
     <audio src="./sounds/sound.mp3" class="sound"></audio>
     <script src="./pomodoro.js"></script>
+    <script src="./modal.js"></script>
 </body>
 </html>
